@@ -1,8 +1,12 @@
+import { ChakraProvider } from '@chakra-ui/react';
+
 function App() {
+  const word = 'word';
+
   return (
-    <div>
+    <ChakraProvider>
       <h1>Jotto</h1>
-    </div>
+    </ChakraProvider>
   );
 }
 
